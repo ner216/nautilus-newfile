@@ -1,0 +1,2 @@
+nautilus-newfile.py /usr/share/nautilus-python/extensions/
+new-file-dialog.ui /usr/share/nautilus-python/extensions/

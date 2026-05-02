@@ -1,0 +1,8 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: nautilus-extension-newfile
+
+Files: *
+Copyright: 2026 Tyler Ferrari <email@email.com>
+
+Files: debian/*
+Copyright: 2026 Nolan Provencher <email@email.com>

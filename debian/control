@@ -1,0 +1,14 @@
+Source: nautilus-extension-newfile
+Priority: optional
+Section: utils
+Maintainer: Nolan Provencher <provencher.nolan@gmail.com>
+Build-Depends: debhelper-compat (= 13)
+Homepage: https://github.com/Sowgro/nautilus-newfile
+Standards-Version: 4.7.0
+
+Package: nautilus-extension-newfile
+Architecture: all
+Depends: ${misc:Depends}, python3-nautilus
+Description: New File option for the Nautilus file manager
+	Add the option to create a new blank file in the Nautilus right-click menu.
+
