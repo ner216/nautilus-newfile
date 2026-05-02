@@ -11,9 +11,14 @@ Adds a "New File..." option to the context menu of nautilus
 
 ### Buiding a Package
 - Debian/Ubuntu:
-    - Install dependancies with: `sudo apt install build-essential debhelper devscripts`
-    - Within the root of the project directory, run `debuild -us -uc` to build the deb package.
-    - You can clean/remove temporary build files with: `debian/rules clean`.
+    1. Install build tools with: `sudo apt install build-essential debhelper devscripts`
+    2. Within the root of the project directory, run `debuild -us -uc` to build the deb package.
+        - *The `-us` and `-uc` flags specify to build an unsigned deb package.*
+    3. You can clean/remove temporary build files with: `debian/rules clean`.
+- Fedora/RHEL:
+    1. Install build tools with: `sudo dnf install rpmdevtools`
+    2. From within the project folder, run the build script: `./rpm/build_rpm.sh`
+    
 
 ### Limitations
 - ~~No filename validation is run (needs implementation)~~ 🎉**Now implemented**
