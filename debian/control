@@ -1,7 +1,7 @@
 Source: nautilus-extension-newfile
 Priority: optional
 Section: utils
-Maintainer: Nolan Provencher <provencher.nolan@gmail.com>
+Maintainer: Nolan Provencher <email@email.com>
 Build-Depends: debhelper-compat (= 13)
 Homepage: https://github.com/Sowgro/nautilus-newfile
 Standards-Version: 4.7.0
